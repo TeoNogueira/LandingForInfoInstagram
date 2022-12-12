@@ -301,6 +301,10 @@ main aside .text-info p {
     max-width: 100% !important;
     width: 100% !important;
 }
+nav .text-info h2 {
+font-size: 19px !important;
+
+}
 nav .list ul li {
     margin: 8px  0 12px 0 ;
     line-height: 45px;

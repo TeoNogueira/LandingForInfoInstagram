@@ -177,13 +177,19 @@ footer ul {
 
 footer ul li a:hover {
 
-    color: rgb(251, 211, 48);
+
+    color: rgb(48, 251, 251);
+}
+
+
+footer ul li:nth-child(2)  a:hover{
+
+    color: rgb(48, 251, 122);
 }
 
 
 footer ul li:nth-child(3)  a:hover{
-
-    color: rgb(48, 251, 251);
+    color: rgb(251, 211, 48);
 }
 
 /* FRAMES ANIMATION */
