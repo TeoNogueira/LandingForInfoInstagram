@@ -196,6 +196,7 @@ footer ul li:nth-child(3)  a:hover{
 
 .anim-now-1 {
   animation: anim-now 5.2s infinite;
+  position: relative;
 }
 
 @keyframes anim-now {
