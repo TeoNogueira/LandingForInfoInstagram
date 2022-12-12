@@ -81,6 +81,10 @@ width: 280px;
 
 }
 
+.text-ava-2 {
+
+    display: none;
+}
 main section {
 
     justify-content: center;

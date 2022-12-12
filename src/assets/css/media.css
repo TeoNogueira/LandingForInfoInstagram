@@ -22,9 +22,29 @@ main section {
 }
 
 
-main section h1 {
+main section h1  {
 
-    text-align: center;
+    font-size: 25px !important;
+
+
+
+}
+
+.text-ava {
+
+display: none !important;
+
+}
+
+.text-ava-2 {
+    align-items: center  !important;
+    justify-content: center !important;
+    display: flex !important;
+    width: 100% !important;
+flex-direction: column !important;
+    display: flex !important;
+    margin: 15px 0 0 0!important;
+    padding-top: 5px;
 }
 
 main section img {
@@ -48,7 +68,7 @@ main aside .text-info p {
     margin: 8px 0 5px 0 !important;
     word-wrap: break-word;
     width: 320px !important; 
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 .border-01 {
 
@@ -66,7 +86,7 @@ nav .list ul li a {
     letter-spacing: 1px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
-    font-size: 25px; 
+    font-size: 23px;
 
 }
 .border-02 {
@@ -91,8 +111,7 @@ footer ul {
 
 /* 375 */
 
-
-@media  screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
 
     main {
 
@@ -101,7 +120,7 @@ footer ul {
 
  main.container {
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column;
 
  }
     
@@ -116,9 +135,29 @@ main section {
 }
 
 
-main section h1 {
+main section h1  {
 
-    text-align: center;
+    font-size: 25px !important;
+
+
+
+}
+
+.text-ava {
+
+display: none !important;
+
+}
+
+.text-ava-2 {
+    align-items: center  !important;
+    justify-content: center !important;
+    display: flex !important;
+    width: 100% !important;
+flex-direction: column !important;
+    display: flex !important;
+    margin: 15px 0 0 0!important;
+    padding-top: 5px;
 }
 
 main section img {
@@ -142,7 +181,7 @@ main aside .text-info p {
     margin: 8px 0 5px 0 !important;
     word-wrap: break-word;
     width: 320px !important; 
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 .border-01 {
 
@@ -160,7 +199,7 @@ nav .list ul li a {
     letter-spacing: 1px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
-    font-size: 25px; 
+    font-size: 23px;
 
 }
 .border-02 {
@@ -182,11 +221,10 @@ footer ul {
 }
 
 }
+/* 425 */
 
-/* 420 */
 
-
-@media  screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
 
     main {
 
@@ -195,7 +233,7 @@ footer ul {
 
  main.container {
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column;
 
  }
     
@@ -210,9 +248,29 @@ main section {
 }
 
 
-main section h1 {
+main section h1  {
 
-    text-align: center;
+    font-size: 25px !important;
+
+
+
+}
+
+.text-ava {
+
+display: none !important;
+
+}
+
+.text-ava-2 {
+    align-items: center  !important;
+    justify-content: center !important;
+    display: flex !important;
+    width: 100% !important;
+flex-direction: column !important;
+    display: flex !important;
+    margin: 15px 0 0 0!important;
+    padding-top: 5px;
 }
 
 main section img {
@@ -236,7 +294,7 @@ main aside .text-info p {
     margin: 8px 0 5px 0 !important;
     word-wrap: break-word;
     width: 320px !important; 
-    font-size: 13px !important;
+    font-size: 14px !important;
 }
 .border-01 {
 
@@ -254,7 +312,7 @@ nav .list ul li a {
     letter-spacing: 1px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
-    font-size: 25px; 
+    font-size: 23px;
 
 }
 .border-02 {
