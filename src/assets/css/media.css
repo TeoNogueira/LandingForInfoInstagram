@@ -50,6 +50,7 @@ flex-direction: column !important;
 main section img {
     width: 166px !important;
     height: 166px !important;
+    
 
 }
 
@@ -394,6 +395,10 @@ flex-direction: column !important;
 main section img {
     width: 166px !important;
     height: 166px !important;
+    
+    border: solid 2.3px  rgb(48, 251, 251);
+    padding: 4px;
+    border-radius: 50%;
 
 }
 
