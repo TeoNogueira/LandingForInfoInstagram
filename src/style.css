@@ -182,9 +182,14 @@ footer ul li a:hover {
 }
 
 
-footer ul li:nth-child(2)  a:hover{
+footer ul li:nth-child(2)  a{
 
     color: rgb(48, 251, 122);
+}
+footer ul li:nth-child(2)  a:hover{
+
+    color: rgb(11, 250, 99);
+
 }
 
 
@@ -197,11 +202,14 @@ footer ul li:nth-child(3)  a:hover{
 .anim-now-1 {
   animation: anim-now 5.2s infinite;
   position: relative;
+
 }
 
 @keyframes anim-now {
+    
   0% {
    font-size:  30px;
+  
   }
   50% {
    font-size: 80px;
@@ -212,7 +220,6 @@ footer ul li:nth-child(3)  a:hover{
 }
 .anim-now-2{
   animation: anim-now 3.7s infinite;
-  
 }
 
 @keyframes anim-now {
