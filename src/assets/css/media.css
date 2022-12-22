@@ -383,6 +383,7 @@ main section img {
     height: 166px !important;
     padding: 4px;
     border-radius: 50%;
+    border: solid 2.3px #fff;
 }
 
 .cb-0  {
