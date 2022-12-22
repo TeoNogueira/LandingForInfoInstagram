@@ -377,30 +377,28 @@ flex-direction: column !important;
     padding-top: 5px;
 }
 
-.cb-0  {
+main section img {
+
     width: 166px !important;
     height: 166px !important;
-    border: solid 2.3px rgb(48, 251, 251);;
     padding: 4px;
     border-radius: 50%;
+}
+
+.cb-0  {
+  
+    border: solid 2.3px rgb(48, 251, 251);;
     transition: 3.5s;
 }
 
 .cb-1  {
-    border: solid 2.3px;
+
     border: solid 2.3px rgb(122, 251, 48);
-    width: 166px !important;
-    height: 166px !important;
-    padding: 4px;
-    border-radius: 50%;
     transition: 3.5s;
 }
 
 .cb-2 {
-    width: 166px !important;
-    height: 166px !important;
-    border-radius: 50%;
-    padding: 4px;
+ 
     border: solid 2.3px rgb(251, 211, 48);
     transition: 3.5s;
 }
