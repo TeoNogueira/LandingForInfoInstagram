@@ -1,7 +1,5 @@
-
-
-        function stChange(a, old, nova) {
-        
+      function stChange(a, old, nova) {
+     
             a.classList.remove(old)
             a.classList.add(nova)
         }
@@ -24,19 +22,16 @@
 }, 7000);
 
 
+function visitsNow(res) {
 
+    document.querySelector('.count').textContent = res.value;
     
-
-
-
-
-
+}
+    
 
 function revealed(a, b, c) {
 
-
     return ScrollReveal().reveal(a, b, c)
-
 }
 
 revealed('.text-ava', {duration: 4000})
