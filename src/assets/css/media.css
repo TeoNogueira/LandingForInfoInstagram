@@ -543,12 +543,12 @@ footer ul {
         user-select: none;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, #000000, #010001, #010101, #020102, #020203, #030409, #02060e, #000812, #000b19, #010e1f, #020f26, #03112c) !important;
+    background: linear-gradient(to top, #000000, #010001, #010101, #020102, #020203, #030409, #02060e, #000812, #000b19, #010e1f, #020f26, #03112c) !important;
     
     }
     
     *::after {
-        content: "📜 Only available for mobile version (standing device) 📜 Dev: Teo Nogueira" 😁;
+        content: "📜 Only available for mobile version (standing device) 📜 Dev: Teo Nogueira 😁";
         text-align: center;
         justify-content: center;
         color: #fff;
