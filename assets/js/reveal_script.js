@@ -28,7 +28,6 @@ function visitsNow(res) {
     
 }
     
-
 function revealed(a, b, c) {
 
     return ScrollReveal().reveal(a, b, c)
