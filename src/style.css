@@ -140,11 +140,8 @@ main aside .text-info {
 }
 
 main aside .text-info  p {
-    margin: 6px 0 4px 0;
-    word-wrap: break-word;
-    width: 440px;
-    font-size: 14px;
-    letter-spacing: 1px;
+    text-align: center;
+    width: 350px;
     font-family: 'Roboto Mono', monospace;
 }
 
