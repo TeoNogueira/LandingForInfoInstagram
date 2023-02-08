@@ -28,7 +28,7 @@ document.querySelector('.btn-pause').addEventListener('click', pauseNow);
 document.querySelector('.prev').addEventListener('click', () => {
     indexMusic--;
     if (indexMusic < 0) {
-        indexMusic = 2;
+        indexMusic = 8;
     }
     pauseNow()
     renderMusic(indexMusic);
@@ -36,7 +36,7 @@ document.querySelector('.prev').addEventListener('click', () => {
 
 document.querySelector('.next').addEventListener('click', () => {
     indexMusic++;
-    if (indexMusic > 2){
+    if (indexMusic > 8){
         indexMusic = 0;
     }
     pauseNow()
