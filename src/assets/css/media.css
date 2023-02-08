@@ -446,7 +446,8 @@ padding: 10px 0 0 3px;
 
  
     display: flex !important;
-    justify-content: center;
+    width: 14.5%;
+    justify-content: space-between;
     padding: 2px;
     position: relative;
     top: 4px;
@@ -454,7 +455,7 @@ padding: 10px 0 0 3px;
   
 }
 
-.btn-play, .btn-pause {
+.btn-play, .btn-pause, .arrows {
     font-size: 25px;
     cursor: pointer;
     color: rgb(145, 145, 145);
