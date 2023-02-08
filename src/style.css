@@ -136,13 +136,22 @@ main aside .text-info {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+    margin-left: 4px;
     
+}
+.text-info {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
 }
 
 main aside .text-info  p {
     text-align: center;
-    width: 350px;
+    width: 100%;
     font-family: 'Roboto Mono', monospace;
+
 }
 
 .border-01 {
