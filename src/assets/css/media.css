@@ -214,7 +214,13 @@ footer ul {
 @media only screen and (max-width: 425px) {
 
 
-    
+    .player {
+
+ 
+       
+        width: 25% !important;
+      
+    }
 
 
 main section {
