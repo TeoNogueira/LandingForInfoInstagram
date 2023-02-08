@@ -1,7 +1,7 @@
 let musics = [
     // { src:'musics/We Ride! - Reed Mathis.mp3', title:'xxxxxx', artist:'xxxxxx'},
-    { src:'audios/ccw_full.mp3' },
     { src:'audios/kk_h.mp3' },
+    { src:'audios/ccw_full.mp3' },
     { src:'audios/ms_pha.mp3' },
     { src:'audios/wm_d.mp3' },
     { src:'audios/wm_h.mp3' },
