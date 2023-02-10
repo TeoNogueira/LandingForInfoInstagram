@@ -507,6 +507,7 @@ main aside .text-info p {
 nav .text-info h2 {
 font-size: 19px !important;
 text-align: center;
+margin-right: 9px;
 
 }
 nav .list ul li {

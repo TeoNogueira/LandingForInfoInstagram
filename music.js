@@ -1,3 +1,4 @@
+
 let musics = [
     // { src:'musics/We Ride! - Reed Mathis.mp3', title:'xxxxxx', artist:'xxxxxx'},
     { src:'audios/kk_h.mp3' },
@@ -44,8 +45,6 @@ document.querySelector('.next').addEventListener('click', () => {
 });
 
 
-
-
 // function actualize(){}
 
 // Funções
@@ -61,9 +60,12 @@ function renderMusic(index){
 
 function playMusic(){
     music.play();
+
     document.querySelector('.btn-pause').style.display = 'block';
     document.querySelector('.btn-play').style.display = 'none';
-  
+
+    transfSt()
+ 
 }
 
 
@@ -74,3 +76,29 @@ function pauseNow(){
 }
 
 
+const transfSt = () => {
+    
+    function stChange(a, old, nova) {
+
+       a.classList.remove(old)
+       a.classList.add(nova)
+   }
+
+   setInterval(() => {
+       const doc = document.querySelector('#img');
+      stChange(doc, 'cb-0', 'cb-1');
+   }, 5000);
+  
+       
+
+setInterval(() => {
+   const doc = document.querySelector('#img');
+  stChange(doc, 'cb-1', 'cb-2');
+}, 4000);
+
+setInterval(() => {
+   const doc = document.querySelector('#img');
+  stChange(doc, 'cb-2', 'cb-0');  
+}, 7000);
+
+}
