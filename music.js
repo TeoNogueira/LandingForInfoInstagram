@@ -1,3 +1,5 @@
+import { exColor } from "./assets/js/myExport.js";
+
 
 let musics = [
     // { src:'musics/We Ride! - Reed Mathis.mp3', title:'xxxxxx', artist:'xxxxxx'},
@@ -64,7 +66,7 @@ function playMusic(){
     document.querySelector('.btn-pause').style.display = 'block';
     document.querySelector('.btn-play').style.display = 'none';
 
-    transfSt()
+    exColor()
  
 }
 
@@ -75,30 +77,3 @@ function pauseNow(){
     document.querySelector('.btn-play').style.display = 'block';
 }
 
-
-const transfSt = () => {
-    
-    function stChange(a, old, nova) {
-
-       a.classList.remove(old)
-       a.classList.add(nova)
-   }
-
-   setInterval(() => {
-       const doc = document.querySelector('#img');
-      stChange(doc, 'cb-0', 'cb-1');
-   }, 5000);
-  
-       
-
-setInterval(() => {
-   const doc = document.querySelector('#img');
-  stChange(doc, 'cb-1', 'cb-2');
-}, 4000);
-
-setInterval(() => {
-   const doc = document.querySelector('#img');
-  stChange(doc, 'cb-2', 'cb-0');  
-}, 7000);
-
-}
