@@ -1,14 +1,17 @@
     
-function visitsNow(res) {
+function updateCount() {
 
-    document.querySelector('.count').textContent = res.value;
-    
+    let counter = sessionStorage.getItem('viewCount');
+    sessionStorage.setItem('viewCount', counter);
+    document.querySelector('#count').innerText = counter
 }
     
 function revealed(a, b, c) {
 
     return ScrollReveal().reveal(a, b, c)
 }
+
+updateCount()
 
 revealed('.text-ava', {duration: 4000})
 revealed('.text-ava-2', {duration: 2000})
