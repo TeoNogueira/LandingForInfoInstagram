@@ -2,16 +2,19 @@
 function updateCount() {
 
     let counter = sessionStorage.getItem('viewCount');
+    counter = counter ? parseInt(counter) + 1 : 1;
     sessionStorage.setItem('viewCount', counter);
     document.querySelector('#count').innerText = counter
 }
-    
+updateCount()
+
+
 function revealed(a, b, c) {
 
     return ScrollReveal().reveal(a, b, c)
 }
 
-updateCount()
+
 
 revealed('.text-ava', {duration: 4000})
 revealed('.text-ava-2', {duration: 2000})
