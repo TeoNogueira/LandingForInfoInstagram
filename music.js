@@ -49,8 +49,6 @@ document.querySelector('.next').addEventListener('click', () => {
 
 // function actualize(){}
 
-// Funções
-
 function renderMusic(index){
     music.setAttribute('src', musics[index].src);
     // music.addEventListener('loadeddata', () => {
